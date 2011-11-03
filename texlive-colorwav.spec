@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/colorwav
+# catalog-date 2008-08-18 10:38:42 +0200
+# catalog-license lgpl
+# catalog-version 1.0
 Name:		texlive-colorwav
 Version:	1.0
 Release:	1
@@ -45,6 +51,7 @@ that this function is also available within the xcolor.
 #- source
 %doc %{_texmfdistdir}/source/latex/colorwav/colorwav.dtx
 %doc %{_texmfdistdir}/source/latex/colorwav/colorwav.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ that this function is also available within the xcolor.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
