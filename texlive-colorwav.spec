@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-colorwav
 Version:	1.0
-Release:	4
+Release:	5
 Summary:	Colours by wavelength of visible light
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/colorwav
