@@ -5,9 +5,9 @@ Summary:	Colours by wavelength of visible light
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/colorwav
 License:	LGPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorwav.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorwav.doc.r15878.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorwav.source.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorwav.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorwav.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorwav.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
