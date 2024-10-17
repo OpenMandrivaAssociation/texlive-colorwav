@@ -3,7 +3,7 @@ Version:	67012
 Release:	1
 Summary:	Colours by wavelength of visible light
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/colorwav
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/colorwav
 License:	LGPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorwav.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorwav.doc.r%{version}.tar.xz
